@@ -27,7 +27,7 @@ public class AppointmentController {
             }
     }
 
-    @GetMapping("get-appointment")
+    @GetMapping("get-all-appointments")
     public ResponseEntity getAppointment() {
         return ResponseEntity.ok(appointmentService.getAppointment());
     }
